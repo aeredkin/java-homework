@@ -1,7 +1,7 @@
 package com.homework;
 
 public class Circle implements PlaneFigure {
-    protected double radius;
+    protected final double radius;
 
     Circle(double radius) {
         this.radius = radius;
