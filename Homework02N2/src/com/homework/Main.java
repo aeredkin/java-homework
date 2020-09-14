@@ -15,10 +15,11 @@ public class Main {
 
         TreeMap<String, Integer> wordsAndCount = new TreeMap<>(new LengthComparator());
         for (String word : words) {
-            if (wordsAndCount.containsKey(word)) {
-                wordsAndCount.put(word, wordsAndCount.get(word) + 1);
-            } else {
+            Integer value = wordsAndCount.get(word);
+            if (value == null) {
                 wordsAndCount.put(word, 1);
+            } else {
+                wordsAndCount.put(word, ++value);
             }
         }
 
