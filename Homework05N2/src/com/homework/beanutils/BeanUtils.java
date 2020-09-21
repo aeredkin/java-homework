@@ -1,4 +1,4 @@
-package com.homework.calculator.beanutils;
+package com.homework.beanutils;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
