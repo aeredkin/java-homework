@@ -1,0 +1,25 @@
+.App {
+    display: inline-block;
+    text-align: center;
+}
+
+.Button {
+    border-style: double;
+}
+
+.Cell {
+    height: 10vmin;
+    width: 10vmin;
+    border-style: solid;
+    font-size: 6vmin;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+
+.Rows {
+    display: flex;
+    flex-direction: column;
+}
